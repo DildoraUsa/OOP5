@@ -1,6 +1,6 @@
 public class Student implements Comparable<Student>{
 
-
+     // Can you share with me some java projects
     //POJO -> Plain Old Java Object
 
     String name;
