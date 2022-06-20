@@ -37,11 +37,11 @@ public class ComparatorTester {
 
         List<Animal> animals = new ArrayList<>();
 
-        animals.add(new Animal(5, "Dog", 23));
-        animals.add(new Animal(10, "Dog", 30));
-        animals.add(new Animal(10, "Cat", 10));
-        animals.add(new Animal(2, "Hamster", 1));
-        animals.add(new Animal(4, "Python", 2));
+        animals.add(new Animal(5, "Dog", 23,"red"));
+        animals.add(new Animal(10, "Dog", 30,"black"));
+        animals.add(new Animal(10, "Cat", 10,"blue"));
+        animals.add(new Animal(2, "Hamster", 1,"green"));
+        animals.add(new Animal(4, "Python", 2,"white"));
 
 
 //        Comparator<Animal> comparatorByAge = new Comparator<Animal>() {

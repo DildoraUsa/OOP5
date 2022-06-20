@@ -5,12 +5,14 @@ public class Animal {
     String name;
     double weight;
     double height;
+    String color;
   // Learning Git
     //Lear more and more
-    public Animal(int age, String name, double weight) {
+    public Animal(int age, String name, double weight,String color) {
         this.age = age;
         this.name = name;
         this.weight = weight;
+        this.color = color;
     }
 
     public int getAge() {
@@ -40,6 +42,7 @@ public class Animal {
     public void setHeight(double height) {
         this.height = height;
     }
+
 
 
     @Override
