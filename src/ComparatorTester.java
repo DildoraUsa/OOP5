@@ -41,7 +41,6 @@ public class ComparatorTester {
         animals.add(new Animal(10, "Dog", 30,"black"));
         animals.add(new Animal(10, "Cat", 10,"blue"));
         animals.add(new Animal(2, "Hamster", 1,"green"));
-        animals.add(new Animal(4, "Python", 2,"white"));
 
 
 //        Comparator<Animal> comparatorByAge = new Comparator<Animal>() {
